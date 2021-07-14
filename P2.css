@@ -15,12 +15,10 @@ header
 }
 
 
-
 header img
 {
  margin-left: 20px;
 }
-
 
 
 
@@ -33,7 +31,6 @@ header img
 	margin-top: 10px;
 	text-decoration: none;
 }
-
 
 
 nav
@@ -62,7 +59,6 @@ header ul li
 }
 
 
-
 header ul li:hover
 {
 	border-bottom: 2px solid #0065FC;	
@@ -80,6 +76,70 @@ li a
 li a:hover
 {
 	color :#0065FC;
+}
+
+
+
+/*--------------------------------------------------------------*/
+
+#haut_de_page
+{
+	margin: 27px;
+}
+
+
+#titre_principal
+{
+	font-size: 1.1em;
+	padding-bottom: 25px;
+}
+
+/*--------------------------------------------------------------*/
+
+#barre_recherche
+{
+	border: 2px #F2F2F2 solid;
+	border-radius: 15px;
+	border-left : none;
+	border-right : none;
+	display: inline-block;
+}
+
+
+
+#icone_map
+{
+	padding: 20px;
+	background-color: #F2F2F2;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+}
+
+
+input
+{
+	 
+	padding-left : 10px;
+	font-weight: bold;
+	border-style: none;	
+	width: 175px;
+	font-size: 1em;
+}
+
+
+button
+{
+	border-radius: 15px;
+	color :white;
+	background-color : #0065FC;
+	padding: 20px;
+	border : none;	
+}
+
+
+.fa-search
+{
+	font-size: 1.2em;
 }
 
 
