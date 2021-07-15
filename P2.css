@@ -143,3 +143,156 @@ button
 }
 
 
+/*--------------------------------------------------------------*/
+
+#categorie
+{
+	font-weight: bold;
+}
+
+
+
+#filtres
+{
+	
+	margin-right: 5px;
+}
+
+
+#critere
+{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+#critere div
+{
+	border: 2px #F2F2F2 solid;
+	border-radius : 30px /30px;
+	border-left: none ;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+
+#critere span
+{
+	color : #0065FC;
+	border-radius : 50%;
+	padding: 15px;
+	background-color:#DEEBFF; 
+}
+
+
+#critere div:hover
+{
+    background-color: #DEEBFF;
+}
+
+
+.critere_lien
+{
+	color : black;
+	text-decoration: none;
+	padding : 15px 15px 15px 10px;
+}
+
+
+/*--------------------------------------------------------------*/
+
+#resultat
+{
+	margin-bottom: 15px;
+	margin-top: 15px;
+	border-left: none;
+	border-radius : 30px /30px;}
+
+
+.fa-info
+{
+    color: rgb(0, 101, 252);
+	background-color:rgb(222, 235, 255); 
+	border-radius : 50%;
+	padding: 3.2px 8px 3.2px 8px;
+}
+
+
+
+
+
+
+/*--------------------------------------------------------------*/
+
+
+
+#titre_hebergements
+{
+	align-items: center;
+}
+
+
+.tous_cadre_hebergements
+{
+	display : flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+
+.grand_cadre_hebergement
+{
+	background-color: white;
+	border-radius: 20px;
+    margin-bottom: 30px;
+    box-shadow: 0px 3px 6px #aaa;
+    padding: 4px;   
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 15px;
+}
+
+
+
+
+.grand_cadre_hebergement img
+{
+  height: 120px;
+  width: 320px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  object-fit: cover;
+}
+
+
+
+
+.petit_cadre_hebergement
+{
+	font-size: 20px;
+	font-family: raleway;
+	padding-left : 10px;
+	padding-right : 10px;
+}
+
+
+.petit_cadre_hebergement a
+{
+	color: black;
+	text-decoration: none;
+}
+
+
+.petit_cadre_hebergement b
+{
+	font-size: 0.8em;
+}
+
+
+.petit_cadre_hebergement .fa-star
+{
+	color:#0065FC;
+	font-size: 0.65em;
+}
