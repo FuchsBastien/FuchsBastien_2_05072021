@@ -296,3 +296,97 @@ button
 	color:#0065FC;
 	font-size: 0.65em;
 }
+
+
+
+/*--------------------------------------------------------------*/
+
+#populaire
+{
+	background-color: #F2F2F2;
+	width: 100%;
+}
+
+
+
+
+#titre_populaire 
+{
+    display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+
+#titre_populaire span
+{
+   font-size: 1.4em;
+}
+
+
+.tous_cadre_populaire
+{
+	display : flex;
+	flex-wrap: wrap;
+    justify-content : center;	
+	padding-bottom: 20px;
+}
+
+
+
+
+.grand_cadre_populaire
+{	
+	background-color: white;
+	border-radius: 20px;
+    box-shadow: 0px 3px 6px #aaa;
+    padding: 4px; 
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	width: 320px;
+}
+
+
+
+.grand_cadre_populaire img
+{
+    height: 150px;
+    width: 130px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    float: left;
+    object-fit: cover;
+}
+
+
+.petit_cadre_populaire 
+{
+    padding-left: 15px;
+    overflow: hidden;
+}
+
+
+
+.petit_cadre_populaire a
+{
+	color: black;
+	text-decoration: none;
+}
+
+
+.petit_cadre_populaire_info 
+{
+    padding-bottom: 35px;
+    overflow: hidden;
+}
+
+
+
+.petit_cadre_populaire .fa-star
+{
+	color:#0065FC;
+	font-size: 0.75em;
+}
