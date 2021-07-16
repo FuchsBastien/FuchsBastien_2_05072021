@@ -1,11 +1,11 @@
 body
 {
-  max-width: 1440px;
-  margin-top : 0px;
-  margin-left : auto;
-  margin-right : auto;
-  align-items : center;
-  font-family: 'raleway', sans serif;
+    max-width: 1440px;
+    margin-top : 0px;
+    margin-left : auto;
+    margin-right : auto;
+    align-items : center;
+    font-family: 'raleway', sans serif;
 }
 
 
@@ -15,11 +15,33 @@ header
 }
 
 
-header img
+@media all and (min-width : 768px)
 {
- margin-left: 20px;
+	header
+	{
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		margin-top : 0px;
+	}
 }
 
+
+header img
+{
+    margin-left: 20px;
+}
+
+
+@media all and (min-width : 768px)
+{
+	header img
+	{
+		
+		margin-left : 30px;
+		padding-top: 20px;
+	}
+}
 
 
 .inscrire
@@ -33,6 +55,18 @@ header img
 }
 
 
+@media all and (min-width : 768px)
+{
+	.inscrire
+	{
+	padding-left: 40px;	
+	padding-right: 3%;
+	padding-top: 40px;	
+	margin-top: 0;
+	}
+}
+
+
 nav
 {
 	display: initial;
@@ -41,12 +75,10 @@ nav
 
 nav ul
 {
-	
 	display: flex;
 	padding-left: 0px;
 	margin: 0px;
 	text-align: center;
-	
 }
 
 
@@ -59,11 +91,35 @@ header ul li
 }
 
 
+@media all and (min-width : 768px)
+{
+	header ul li
+	{
+		width: auto;
+		padding-top: 40px;
+		padding-left: 40px;
+	    padding-right: 40px;
+		padding-bottom: 20px;
+		text-align: center;
+		border-bottom: none;
+	}
+}
+
+
 header ul li:hover
 {
 	border-bottom: 2px solid #0065FC;	
 }
 
+
+@media all and (min-width : 768px)
+{
+	header ul li:hover
+	{
+	    border-bottom: none;
+	    border-top: 2px solid #0065FC;	
+	}
+}
 
 
 li a
@@ -79,12 +135,11 @@ li a:hover
 }
 
 
-
 /*--------------------------------------------------------------*/
 
 #haut_de_page
 {
-	margin: 27px;
+	margin: 24px;
 }
 
 
@@ -106,6 +161,15 @@ li a:hover
 }
 
 
+@media all and (max-width : 320px)
+{
+	#barre_recherche
+	{
+		border-left: 2px #F2F2F2 solid; 
+		border-right : none;
+	}
+}
+
 
 #icone_map
 {
@@ -116,14 +180,31 @@ li a:hover
 }
 
 
+@media all and (max-width : 320px)
+{
+	#icone_map
+	{
+	    display : none;
+	}
+}
+
+
 input
 {
-	 
 	padding-left : 10px;
 	font-weight: bold;
 	border-style: none;	
 	width: 175px;
 	font-size: 1em;
+}
+
+
+@media all and (max-width : 319px)
+{
+	input
+	{
+		width: 150px;
+	}
 }
 
 
@@ -137,9 +218,37 @@ button
 }
 
 
+@media all and (min-width : 768px)
+{
+	button
+	{
+     	border-top-left-radius: 0px;
+	    border-bottom-left-radius: 0px;
+	}
+}
+
+
 .fa-search
 {
 	font-size: 1.2em;
+}
+
+
+@media all and (min-width : 768px)
+{
+	.fas.fa-search
+	{
+     	display: none;
+	}
+}
+
+
+@media all and (max-width : 767px)
+{
+	button span
+	{
+     	display: none;
+	}
 }
 
 
@@ -150,6 +259,16 @@ button
 	font-weight: bold;
 }
 
+
+@media all and (min-width : 768px)
+{
+	#categorie
+    {
+	    display: flex;
+     	align-items: baseline;
+     	margin-top: 15px;
+    }
+}
 
 
 #filtres
@@ -200,7 +319,6 @@ button
 	padding : 15px 15px 15px 10px;
 }
 
-
 /*--------------------------------------------------------------*/
 
 #resultat
@@ -220,12 +338,49 @@ button
 }
 
 
+/*--------------------------------------------------------------*/
 
-
+@media all and (min-width : 1025px)
+{
+    #hebergement_et_populaire
+    {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row-reverse;
+		justify-content: space-between;
+    }
+}
 
 
 /*--------------------------------------------------------------*/
 
+@media all and (min-width : 1025px)
+{
+	#hebergements
+    {
+	    background-color: rgb(242, 242, 242);
+	    border-radius: 30px;
+	    width: auto;
+    }
+}
+
+
+@media all and (min-width : 1025px)
+{
+	#hebergements
+    {
+	    width: 63%;
+    }
+}
+
+
+@media all and (min-width : 1440px)
+{
+	#hebergements
+    {
+     	width: 70%;
+    }
+}
 
 
 #titre_hebergements
@@ -255,18 +410,41 @@ button
 }
 
 
+@media all and (max-width : 320px)
+{
+	.grand_cadre_hebergement
+    {
+	    padding: 0px;
+    }
+}
 
 
 .grand_cadre_hebergement img
 {
-  height: 120px;
-  width: 320px;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  object-fit: cover;
+    height: 120px;
+    width: 320px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
 }
 
 
+@media all and (min-width : 1024px)
+{
+	.grand_cadre_hebergement img
+    {
+	    width: 260px;
+    }
+}
+
+
+@media all and (max-width : 320px)
+{
+	.grand_cadre_hebergement img
+    {
+     	width: 260px;
+    }
+}
 
 
 .petit_cadre_hebergement
@@ -298,7 +476,6 @@ button
 }
 
 
-
 /*--------------------------------------------------------------*/
 
 #populaire
@@ -308,6 +485,15 @@ button
 }
 
 
+@media all and (min-width : 768px)
+{
+	#populaire
+    {
+	    border-radius: 30px;
+	    width: auto;
+	    height: auto;;
+    }
+}
 
 
 #titre_populaire 
@@ -335,6 +521,15 @@ button
 }
 
 
+@media all and (min-width : 1025px)
+{
+	.tous_cadre_populaire
+    {
+	    flex-direction: column;
+	    align-content: space-between;
+	    padding-bottom: 0px;
+    }
+}
 
 
 .grand_cadre_populaire
