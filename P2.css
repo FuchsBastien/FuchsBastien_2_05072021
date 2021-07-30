@@ -368,7 +368,7 @@ button {
 
 @media all and (max-width : 320px) {
 	.grand_cadre_hebergement {
-	    padding: 0px;
+	    padding: 4px;
     }
 }
 
@@ -510,12 +510,6 @@ button {
 }
 
 
-@media all and (max-width : 320px) {
-	.grand_cadre_populaire {
-	    padding: 0px;
-    }
-}
-
 
 @media all and (min-width : 1025px) {
 	.grand_cadre_populaire {
@@ -566,9 +560,9 @@ button {
 }
 
 
-@media all and (max-width : 319px) {
+@media all and (max-width : 320px) {
 	.petit_cadre_populaire_info {
-	    padding-bottom: 0px; 
+	    padding-bottom: 20px; 
     }
 }
 
@@ -765,6 +759,12 @@ h5 {
 	margin-top: 10px ;
 	margin-bottom: 5px;
 	font-size: 1.1em;
+}
+
+@media all and (max-width : 320px) {
+	h5 {
+	     font-size: 1em;
+    }
 }
 
 
