@@ -42,7 +42,7 @@ header img {
 	color :#0065FC;
 	font-weight:bold;
 	margin-right: 20px;
-	margin-top: 10px;
+	margin-top: 15px;
 	text-decoration: none;
 }
 
@@ -72,7 +72,8 @@ nav ul {
 
 header ul li {
 	border-bottom: 2px solid #F2F2F2;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
+	padding-top : 10px;
 	width: 50vw;
 	list-style-type: none;
 }
@@ -110,7 +111,7 @@ li a {
 }
 
 
-li a:hover {
+header li:hover a {
 	color :#0065FC;
 }
 
@@ -285,7 +286,7 @@ button {
 
 .fa-info {
     color: #0065FC;
-	background-color:#DEEBFF; 
+	border:1px solid #DEEBFF; 
 	border-radius : 50%;
 	padding: 3.2px 8px 3.2px 8px;
 }
@@ -657,7 +658,7 @@ button {
 
 @media all and (min-width : 1315px) and (max-width : 1458px) {
 	.img_grande {
-	   width: 250px;
+	   width: 260px;
     }
 }
 
@@ -688,7 +689,7 @@ button {
 
 @media all and (min-width : 1315px) and (max-width : 1458px) {
 	.img_petite {
-	    width: 250px;
+	    width: 260px;
     }
 }
 
