@@ -616,6 +616,15 @@ button {
 }
 
 
+@media all and (min-width : 1083px) and (max-width : 1314px) {
+
+	.cadre_activites h4 {
+	     font-size: 0.80em;
+		 padding-left: 0px;
+    }
+}
+
+
 .grand_cadre_activites {
 	display: flex;
 	flex-wrap: wrap;
@@ -659,7 +668,7 @@ button {
 
 @media all and (min-width : 1315px) and (max-width : 1458px) {
 	.img_grande {
-	   width: 260px;
+	   width: 280px;
     }
 }
 
@@ -690,7 +699,7 @@ button {
 
 @media all and (min-width : 1315px) and (max-width : 1458px) {
 	.img_petite {
-	    width: 260px;
+	    width: 280px;
     }
 }
 
@@ -767,9 +776,3 @@ h5 {
     }
 }
 
-
-@media all and (min-width : 1083px) and (max-width : 1314px) {
-	h4 {
-	     font-size: 0.80em;
-    }
-}
