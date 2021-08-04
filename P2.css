@@ -673,7 +673,7 @@ button {
 }
 
 
-.img_petite {
+.grand_cadre_activites img {
 	height: 120px;
 	width: 320px;
 	border-top-left-radius: 20px;
@@ -683,7 +683,7 @@ button {
 
 
 @media all and (max-width : 320px) {
-	.img_petite {
+	.grand_cadre_activites img {
 	    width: 280px;
 		height: 110px;
     }
@@ -691,16 +691,69 @@ button {
 
 
 @media all and (min-width : 1083px) and (max-width : 1314px) {
-	.img_petite {
-  	    width: 220px;
+	.grand_cadre_activites img {
+  	    width: 220px;		  
     }
 }
 
 
 @media all and (min-width : 1315px) and (max-width : 1458px) {
-	.img_petite {
+	.grand_cadre_activites img {
 	    width: 280px;
     }
+}
+
+
+@media all and (min-width : 738px) and (max-width : 1314px) {
+	.grand_cadre_activites .img_petite1-1 {
+		height: 140px;	
+	}
+}
+
+@media all and (min-width : 1315px){
+	.grand_cadre_activites .img_petite1-1 {
+		height: 160px;	
+	}
+}
+
+
+@media all and (min-width : 738px) and (max-width : 1314px) {
+	.grand_cadre_activites .img_petite1-2 {
+		height: 80px;	
+	}
+}
+
+@media all and (min-width : 1315px)  {
+	.grand_cadre_activites .img_petite1-2 {
+		height: 100px;	
+	}
+}
+
+
+@media all and (min-width : 738px) and (max-width : 1314px) {
+	.grand_cadre_activites .img_petite2-1 {
+		height: 100px;	
+	}
+}
+
+@media all and (min-width : 1315px) {
+	.grand_cadre_activites .img_petite2-1 {
+		height: 120px;	
+	}
+}
+
+
+@media all and (min-width : 738px) and (max-width : 1314px)  {
+	.grand_cadre_activites .img_petite2-2 {
+		height: 120px;	
+	}
+}
+
+
+@media all and (min-width : 1315px){
+	.grand_cadre_activites .img_petite2-2 {
+		height: 140px;	
+	}
 }
 
 
@@ -710,30 +763,29 @@ footer {
 	background-color: #F2F2F2;
 	padding-left: 27px;
 	padding-top: 25px;
-	padding-bottom: 25px;
 }
 	
 
 @media all and (min-width : 768px) {
-	footer {
+	.footer_total {
 	    display: flex;
      	justify-content: space-between;
 	    padding-left: 50px;
 	    padding-right: 150px;
+        width: 80%;
     }
 }
 
 
-@media all and (min-width : 992px) {
-	footer {
-	    padding-left: 50px;
-	    padding-right: 200px;
+@media all and (min-width : 1083px) {
+	.footer_total {
+	    width: 70%;
     }
 }
 
 
 footer span {
-	font-weight:bold;
+	font-weight: bold;
 }
 	
 
@@ -742,6 +794,7 @@ footer ul {
 	padding-bottom: 15px;;
 }
 	
+
 
 footer ul li {
 	list-style-type: none;
